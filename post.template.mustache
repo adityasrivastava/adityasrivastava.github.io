@@ -1,0 +1,16 @@
+{{#content}}
+	{{#title}}
+	<h2 class="section-heading">{{.}}</h2>
+	{{/title}}
+
+	{{#paragraph}}
+		<p>{{paragraph}}</p>
+	{{/paragraph}}
+	
+	{{#images}}
+		<img class="img-responsive" src="{{imageUrl}}">
+		{{#description}}
+		<span class="caption text-muted">{{.}}</span>
+		{{/description}}
+	{{/images}}
+{{/content}}
